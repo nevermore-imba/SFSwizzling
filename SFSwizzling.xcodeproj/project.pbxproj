@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F05A9F581E34BBF500E8CED1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A9F571E34BBF500E8CED1 /* main.m */; };
+		F05A9F641E34C4FC00E8CED1 /* NSObject+SFSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A9F631E34C4FC00E8CED1 /* NSObject+SFSwizzling.m */; };
+		F05A9F671E35A33500E8CED1 /* SFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A9F661E35A33500E8CED1 /* SFPerson.m */; };
+		F05A9F6A1E35A4FC00E8CED1 /* SFPerson+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A9F691E35A4FC00E8CED1 /* SFPerson+Swizzling.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F05A9F521E34BBF500E8CED1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F05A9F541E34BBF500E8CED1 /* SFSwizzling */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SFSwizzling; sourceTree = BUILT_PRODUCTS_DIR; };
+		F05A9F571E34BBF500E8CED1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F05A9F621E34C4FC00E8CED1 /* NSObject+SFSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SFSwizzling.h"; sourceTree = "<group>"; };
+		F05A9F631E34C4FC00E8CED1 /* NSObject+SFSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SFSwizzling.m"; sourceTree = "<group>"; };
+		F05A9F651E35A33500E8CED1 /* SFPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPerson.h; sourceTree = "<group>"; };
+		F05A9F661E35A33500E8CED1 /* SFPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPerson.m; sourceTree = "<group>"; };
+		F05A9F681E35A4FC00E8CED1 /* SFPerson+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SFPerson+Swizzling.h"; sourceTree = "<group>"; };
+		F05A9F691E35A4FC00E8CED1 /* SFPerson+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SFPerson+Swizzling.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F05A9F511E34BBF500E8CED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F05A9F4B1E34BBF500E8CED1 = {
+			isa = PBXGroup;
+			children = (
+				F05A9F561E34BBF500E8CED1 /* SFSwizzling */,
+				F05A9F551E34BBF500E8CED1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F05A9F551E34BBF500E8CED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F05A9F541E34BBF500E8CED1 /* SFSwizzling */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F05A9F561E34BBF500E8CED1 /* SFSwizzling */ = {
+			isa = PBXGroup;
+			children = (
+				F05A9F571E34BBF500E8CED1 /* main.m */,
+				F05A9F621E34C4FC00E8CED1 /* NSObject+SFSwizzling.h */,
+				F05A9F631E34C4FC00E8CED1 /* NSObject+SFSwizzling.m */,
+				F05A9F651E35A33500E8CED1 /* SFPerson.h */,
+				F05A9F661E35A33500E8CED1 /* SFPerson.m */,
+				F05A9F681E35A4FC00E8CED1 /* SFPerson+Swizzling.h */,
+				F05A9F691E35A4FC00E8CED1 /* SFPerson+Swizzling.m */,
+			);
+			path = SFSwizzling;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F05A9F531E34BBF500E8CED1 /* SFSwizzling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F05A9F5B1E34BBF500E8CED1 /* Build configuration list for PBXNativeTarget "SFSwizzling" */;
+			buildPhases = (
+				F05A9F501E34BBF500E8CED1 /* Sources */,
+				F05A9F511E34BBF500E8CED1 /* Frameworks */,
+				F05A9F521E34BBF500E8CED1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFSwizzling;
+			productName = SFSwizzling;
+			productReference = F05A9F541E34BBF500E8CED1 /* SFSwizzling */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F05A9F4C1E34BBF500E8CED1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Nevermore;
+				TargetAttributes = {
+					F05A9F531E34BBF500E8CED1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F05A9F4F1E34BBF500E8CED1 /* Build configuration list for PBXProject "SFSwizzling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F05A9F4B1E34BBF500E8CED1;
+			productRefGroup = F05A9F551E34BBF500E8CED1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F05A9F531E34BBF500E8CED1 /* SFSwizzling */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F05A9F501E34BBF500E8CED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05A9F671E35A33500E8CED1 /* SFPerson.m in Sources */,
+				F05A9F641E34C4FC00E8CED1 /* NSObject+SFSwizzling.m in Sources */,
+				F05A9F581E34BBF500E8CED1 /* main.m in Sources */,
+				F05A9F6A1E35A4FC00E8CED1 /* SFPerson+Swizzling.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F05A9F591E34BBF500E8CED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F05A9F5A1E34BBF500E8CED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F05A9F5C1E34BBF500E8CED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F05A9F5D1E34BBF500E8CED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F05A9F4F1E34BBF500E8CED1 /* Build configuration list for PBXProject "SFSwizzling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F05A9F591E34BBF500E8CED1 /* Debug */,
+				F05A9F5A1E34BBF500E8CED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F05A9F5B1E34BBF500E8CED1 /* Build configuration list for PBXNativeTarget "SFSwizzling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F05A9F5C1E34BBF500E8CED1 /* Debug */,
+				F05A9F5D1E34BBF500E8CED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F05A9F4C1E34BBF500E8CED1 /* Project object */;
+}
