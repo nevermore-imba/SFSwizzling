@@ -12,8 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SFPerson : NSObject
 
-- (instancetype)init;
-- (instancetype)initWithName:(nullable NSString *)name;
+- (instancetype)initWithName:(nullable NSString *)name NS_DESIGNATED_INITIALIZER;
 
 @property (nullable, readonly, nonatomic, copy) NSString *name;
 

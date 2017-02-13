@@ -36,7 +36,7 @@
 
 - (void)replace_setName:(NSString *)name {
     if (nil == name) {
-        NSLog(@"*** Waring: name = %@ \n", name);
+        NSLog(@"*** Warning: name = %@ \n", name);
     } else {
         [self replace_setName:name];
     }
